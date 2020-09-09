@@ -1,0 +1,215 @@
+Scenario: LO1
+Description: phytoplankton chlorophyll spring bloom average
+Target species: 'P1l', 'P2l', 'P3l', 'P4l'
+Safe species: 'N5s', 'P1s', 'R6s'
+Error function: calc_error_chl_4
+Threshold: 1.10e-04
+Number of species: 44
+Error: 0.20894
+
+Scenario: LO2
+Description: phytoplankton chlorophyll spring bloom average
+Target species:'P2l', 'P3l', 'P4l'
+Safe species: 'N5s', 'P1s', 'R6s', 'P1l'
+Error function: calc_error_chl_5
+Threshold: 1.10e-04
+Number of species: 44
+Error: 0.48843
+
+Scenario: LO3
+Description: phytoplankton chlorophyll spring bloom average
+Target species: 'P3l', 'P4l'
+Safe species: 'N5s', 'P1s', 'R6s', 'P1l', 'P2l'
+Error function: calc_error_chl_6
+Threshold: 1.10e-04
+Number of species: 44
+Error: 0.07339
+
+Scenario: LO4
+Description: phytoplankton chlorophyll spring bloom peak
+Target species: 'P1l', 'P2l', 'P3l', 'P4l'
+Safe species: 'N5s', 'P1s', 'R6s'
+Error function: calc_error_chl_1
+Threshold: 1.10e-04
+Number of species: 44
+Error: 0.35707
+
+Scenario: LO5
+Description: phytoplankton chlorophyll spring bloom peak
+Target species:'P2l', 'P3l', 'P4l'
+Safe species: 'N5s', 'P1s', 'R6s', 'P1l'
+Error function: calc_error_chl_2
+Threshold: 1.10e-04
+Number of species: 44
+Error: 0.14422
+
+Scenario: LO6
+Description: phytoplankton chlorophyll spring bloom peak
+Target species: 'P3l', 'P4l'
+Safe species: 'N5s', 'P1s', 'R6s', 'P1l', 'P2l'
+Error function: calc_error_chl_3
+Threshold: 1.10e-04
+Number of species: 44
+Error: 0.08918
+
+Scenario: LO7
+Description: phyto carbon spring bloom average
+Target species: 'P1c', 'P2c', 'P3c', 'P4c'
+Safe species: 'N5s', 'P1s', 'R6s', 'P1l', 'P2l', 'P3l', 'P4l'
+Error function: calc_error_pc_19
+Threshold: 1.10e-04
+Number of species: 44
+Error: 0.05990
+
+Scenario: LO8
+Description: phyto carbon spring bloom peak
+Target species: 'P1c', 'P2c', 'P3c', 'P4c'
+Safe species: 'N5s', 'P1s', 'R6s', 'P1l', 'P2l', 'P3l', 'P4l'
+Error function: calc_error_pc_20
+Threshold: 1.10e-04
+Number of species: 44
+Error: 1.13110
+
+Scenario: LO9
+Description: phyto carbon spring bloom time of peak
+Target species: 'P1c', 'P2c', 'P3c', 'P4c'
+Safe species: 'N5s', 'P1s', 'R6s', 'P1l', 'P2l', 'P3l', 'P4l'
+Error function: calc_error_pc_21
+Threshold: 1.10e-04
+Number of species: 44
+Error: 0.00016
+
+Scenario: LO10
+Description: carbon stored in non-photosynthesizes average
+Target species: 'B1c', 'Z3c', 'Z4c', 'Z5c', 'Z6c' 
+Safe species: 'N5s', 'P1s', 'R6s', 'P1l', 'P2l', 'P3l', 'P4l'
+Error function: calc_error_bzc_22
+Threshold: 1.10e-04
+Number of species: 44
+Error: 0.27557
+
+Scenario: LO11
+Description: carbon stored in non-photosynthesizes peak
+Target species: 'B1c', 'Z3c', 'Z4c', 'Z5c', 'Z6c' 
+Safe species: 'N5s', 'P1s', 'R6s', 'P1l', 'P2l', 'P3l', 'P4l'
+Error function: calc_error_bzc_23
+Threshold: 1.10e-04
+Number of species: 44
+Error: 0.08670
+
+Scenario: LO12
+Description: carbon stored in non-photosynthesizes time of peak
+Target species: 'B1c', 'Z3c', 'Z4c', 'Z5c', 'Z6c' 
+Safe species: 'N5s', 'P1s', 'R6s', 'P1l', 'P2l', 'P3l', 'P4l'
+Error function: calc_error_bzc_24
+Threshold: 1.10e-04
+Number of species: 44
+Error: 0.03360
+
+Scenario: DIC1
+Description: DIC 1 month average
+Target species: 'O3c'
+Safe species:
+Error function: calc_error_dic_7
+Threshold: 1.0e-5
+Number of species: 21
+Error: 0.00469
+
+Scenario: DIC2
+Description: DIC year 6 average
+Target species: 'O3c'
+Safe species:
+Error function: calc_error_dic_8
+Threshold: 1.0e-5
+Number of species: 21
+Error: 1.18891
+
+Scenario: DIC3
+Description: DIC year 8 average
+Target species: 'O3c'
+Safe species:
+Error function: calc_error_dic_9
+Threshold: 1.0e-5
+Number of species: 21
+Error: 1.16804
+
+Scenario: DIC4
+Description: DIC peak
+Target species: 'O3c'
+Safe species:
+Error function: calc_error_dic_10
+Threshold: 1.0e-5
+Number of species: 21
+Error: 0.01414
+
+Scenario: DIC5
+Description: DIC time of peak
+Target species: 'O3c'
+Safe species:
+Error function: calc_error_dic_11
+Threshold: 1.0e-5
+Number of species: 21
+Error: 0.05839
+
+Scenario: PON1
+Description: PON average
+Target species: 'R6n'
+Safe species: 'N5s', 'P1l', 'P1s', 'R6s'
+Error function: calc_error_r6n_13
+Threshold: 5.01e-03
+Number of species: 40
+Error: 3.28233
+
+Scenario: PON2
+Description: PON peak
+Target species: 'R6n'
+Safe species: 'N5s', 'P1l', 'P1s', 'R6s'
+Error function: calc_error_r6n_12
+Threshold: 5.01e-03
+Number of species: 40
+Error: 1.99304
+
+Scenario: PON3
+Description: PON time of peak
+Target species: 'R6n'
+Safe species: 'N5s', 'P1l', 'P1s', 'R6s'
+Error function: calc_error_r6n_14
+Threshold: 5.01e-03
+Number of species: 40
+Error: 3.31628
+
+Scenario: Oxygen1
+Description: PON 1 month average
+Target species: 'O2o'
+Safe species:
+Error function: calc_error_o2o_15
+Threshold: 1.01e-03
+Number of species: 1
+Error: 0.03610
+
+Scenario: Oxygen2
+Description: PON annual average
+Target species: 'O2o'
+Safe species:
+Error function: calc_error_o2o_16
+Threshold: 1.01e-03
+Number of species: 1
+Error: 5.88712
+
+Scenario: Oxygen3
+Description: PON peak
+Target species: 'O2o'
+Safe species:
+Error function: calc_error_o2o_17
+Threshold: 1.01e-03
+Number of species: 1
+Error: 0.00458
+
+Scenario: Oxygen4
+Description: PON time of peak
+Target species: 'O2o'
+Safe species:
+Error function: calc_error_o2o_18
+Threshold: 1.01e-03
+Number of species: 1
+Error: 0.05605
